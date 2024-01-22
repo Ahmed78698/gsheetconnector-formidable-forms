@@ -1,0 +1,883 @@
+.loading{
+   background-image: url( "../img/ajax-loader.gif");
+   background-position: 50% 80%;
+   background-repeat: no-repeat;
+   width:10px;
+}
+.wrap {
+    margin: 10px 10px 0 2px;
+}
+.loading-select{
+	background-image: url( "../img/ajax-loader.gif");
+   background-position: 50% 80%;
+   background-repeat: no-repeat;
+   width:10px;
+}
+/* Style for .ffforms-setting-field p label */
+.ffforms-setting-field p label {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #242628;
+    padding: 5px; /* Add some padding to the labels */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/*.ffforms-setting-field label {
+    padding: 8px
+}
+*/
+.log-setting {
+    padding-top: 0px;
+}
+.gs-tab{
+	margin-top:40px;
+}
+.gs-tab label {
+    font-size: 14px;
+}
+input#ffforms-setting-google-access-code {
+    width: 25em;
+/*    height: 3em;*/
+    min-height:42px;
+    font-weight: 500;
+}
+.ffform-gs-alert-kk {
+   color: #0073b1;
+    font-size: 15px;
+    padding-bottom: 15px;
+	font-weight: 500;
+}
+.gs-valid-message {
+   font-weight: bold;
+   color: green;
+}
+.ffform-debug-view,
+.debug-clear-kk {
+   text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.divider {
+	margin: 30px 0px;
+}
+p.ffforms-setting-field.log-setting.notice-kk {
+    color: red;
+    font-size: 15px;
+}
+p.save-notify-kk {
+    color: #e27730;
+}
+.ffforms-setting-fields label{
+   line-height: 2.3;
+   font-weight: 600;
+   color: #23282d;
+   font-size: 14px;
+   margin-right: 20px;
+
+}
+
+.card-wp{
+  border: 1px solid #b5bfc9;
+  padding: 15px;
+  margin: 12px;
+  border-radius: 5px;
+  background : #fff;
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  padding-top: 0px;
+  /*background: linear-gradient(to right, #008000, #000000);*/
+}
+/* Default styles for larger screens */
+.wpform-gs-alert-kk {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #6666c3; /* Add border with color */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.wpform-gs-alert-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #242628;
+}
+
+.wpform-gs-alert-steps {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  list-style: none; /* Remove default list marker */
+}
+
+.wpform-gs-alert-steps li {
+  margin-bottom: 7px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: #7f868d;
+  position: relative;
+  margin-left: -19px;
+}
+
+.wpform-gs-alert-steps li::before {
+  font-family: 'dashicons';
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-block;
+  width: 18px;
+  margin-right: 8px;
+  content: '\f15e';
+  text-align: center;
+  vertical-align: -2px;
+  color: #fff;
+  border-radius: 50%;
+  background: #10AC84;
+}
+
+.wpform-gs-alert-permissions {
+  list-style-type: none; /* Remove the default list marker */
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.wpform-gs-alert-note {
+  font-style: italic;
+  color: #888;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust the container width for smaller screens */
+  .wpform-gs-alert-kk {
+    width: 53%;
+  }
+
+  /* Center-align the lock icon and reduce the margin */
+  .wpform-gs-alert-steps li {
+    margin-left: 0;
+  }
+}
+
+
+
+
+.side {
+  display: flex;
+/*  justify-content: space-between;*/
+}
+
+a.njforms-btn.njforms-btn-md.njforms-btn-light-grey {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    min-height: 35px;
+    text-decoration: none;
+}
+input#save-frmdform-gs-code {
+    background-color: green;
+    border-color: #e27730;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 0px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    box-shadow: none;
+    padding: 8px 12px;
+}
+input.wp-save-btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ffforms-gs-fields {
+   position: relative;
+   min-width: 255px;
+   border: 1px solid #e5e5e5;
+   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+   background: #fff;
+}
+.ffforms-gs-fields input {
+    width: 200px;
+}
+.ffforms-gs-fields label {
+   margin: 0 10px 0 10px;
+   float: left;
+   width: 125px;
+   font-size: 14px;
+}
+.ffforms-gs-fields span {
+   margin: 20px 0 20px 10px;
+}
+.gs-name span {
+   display:none;
+   position: absolute;
+   border-radius: 5px 5px; 
+   left: 350px;
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+   font-family: Calibri, Tahoma, Geneva, sans-serif;
+   margin-left: 0;
+   z-index: 999;
+
+}
+.gs-name:hover {
+   color: #00a0d2;
+}
+.gs-name:hover span {
+   display:inline-block;
+   width: 300px;
+   margin-top: 20px;
+   z-index: 1001;
+}
+.hover-data { 
+   padding: 5px;
+   background:  #333;
+   background: rgba(0,0,0,.8);
+   color: #fff;
+}
+
+h2 {
+/*  text-align: center;*/
+  background-color: #ebe9eb00;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: -apple-system,BlinkMacSystemFont,Avenir,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Arial,sans-serif;
+  margin-left: 340px;
+}
+
+span.title1{
+  color: #3f4b5b;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 120px;
+}
+
+span.title{
+  color:#2bb723;
+  font-size:16px;
+
+}
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    width: 1000px;
+}
+.card {
+    position: relative;
+    margin-top: 20px;
+    padding: 0.5em 1em 0.5em;
+    width: 58%;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    background: #fff;
+	  height: 50%;
+    min-width: 645px;
+}
+.card1 {
+    position: relative;
+    margin-top: 20px;
+    padding: 0.7em 1.3em 1em;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    background: #fff;
+    
+}
+
+/*.wp-parts {
+    width: 100%;
+    display: flex;
+}*/
+.njforms-panel-content-section-title h3 {
+    font-size: 16px;
+    color: #4AA94F;
+    padding-bottom: 10px;
+}
+.wp-formSelect {
+    float: left;
+    padding-right: 20px;
+    padding-left: 25px;
+}
+.wp-valid-notice{
+	font-weight:500;
+}
+.wp-select {
+    padding: 11px 0px 0px 0px;
+}
+a.nav-tab.nav-tab-active {
+    border-top: 2px solid #4AA94F;
+}
+input:disabled {
+    background-color: rgb(235, 235, 228);
+}
+/* ---------- tooltip for deactivate msg ----------*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+    width: 180px;
+    background-color: #464646;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 7px 7px;
+    position: absolute;
+    z-index: 1;
+}
+span.tooltiptext.tooltip-right {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tooltip-right {
+    top: -77px;
+    left: 125%;
+}
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+      opacity: 1;
+}
+.help-icon {
+    width: 18px;
+    vertical-align: middle;
+}
+/* ---------- end tooltip for deactivate msg ----------*/
+
+/* ---- demo content block --------- */
+.demo-block span {
+    margin: 20px 0 20px 10px;
+    font-weight: 700;
+    color: #4AA94F;
+    font-size: 15px;
+}
+.demo-block p label {
+    margin: 0 9px 0 11px;
+    float: left;
+    width: 22%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ---- end demo content block --------- */
+
+.log-setting h2.title {
+    max-width: none;
+    font-weight: 700;
+    color: #4AA94F;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-support {
+	position: relative;
+    margin-top: 20px;
+    padding: 0.7em 1.3em 1em;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    background: #fff;
+    margin-left: 19px;
+}
+.column {
+    webkit-align-self: flex-start;
+    align-self: flex-start;
+    min-width: 46%;
+    float: left;
+    width: 25%;
+    height: 250px;
+    padding: 10px;
+}
+.video_link a{
+   text-decoration: none;
+   color:#000;
+   font-size: 20px;
+}
+.doc_wrap{
+   margin-top: 40px;
+}
+
+/* ---- font awsum style ------ */
+
+i.fa.fa-life-ring {
+    font-size: 30px;
+    color: #019ee1;
+    margin: -4px 10px 0px 10px;
+    float: left;
+}
+i.fa.fa-book {
+    font-size: 30px;
+    color: #019ee1;
+    margin: -4px 10px 0px 10px;
+    float: left;
+}
+
+.support-block h2 {
+    padding-bottom: 15px;
+}
+
+/***** syastem-status tab style ****/
+#njforms-gs-system-info{
+    width: 800px;
+    height: 400px;
+}
+/***** faq tab style ****/
+
+.collapsible {
+  background-color: #4AA94F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid #9a9a9a;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-weight:500;
+}
+
+.active, .collapsible:hover {
+  background-color: #4AA94F;
+}
+button.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+button.collapsible.active:after {
+    content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.tab-full {
+    margin: 20px;
+}
+.faq-content{
+  padding-top: 20px !important;
+}
+
+/***** faq tab style ****/
+
+#cf7gs-system-info{
+      width: 800px;
+    height: 400px;
+}
+
+.content ul {
+    padding: 10px 20px;
+  list-style-type: square;
+}
+
+
+.special input[type="checkbox"], input[type="radio"] {
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 16px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 16px !important;
+    min-width: 16px;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.1 );
+    transition: .05s border-color ease-in-out;
+}
+
+input.name-field {
+    width: 120px;
+}
+
+input:disabled {
+    background-color: rgb(235, 235, 228);
+}
+
+.cd-faq-items .pro {
+    color: #ff4747;
+}
+
+.gs-demo-fields span {
+    margin: 20px 0 20px 10px;
+    font-size: 15px;
+}
+
+.gs-second-block h2 span.gs-info, .gs-third-block h2 span.gs-info, span.gs-info {
+    font-size: 14px;
+    font-style: italic;
+  color:#333;
+  font-weight: 400;
+}
+
+table.gs-field-list {
+    margin-left: 30px;
+}
+table.gs-field-list.special {
+    margin: 0px;
+}
+td.gs-r-pad {
+    padding-right: 10px;
+}
+
+.gs-third-block .gs-field-list td:nth-child(2), .gs-third-block .gs-field-list td:nth-child(5), .gs-second-block .gs-field-list td:nth-child(2){
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    background-color: rgb(235, 235, 228) !important;
+}
+.connected-account{
+  margin-top: 30px !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 500 !important;
+  color: #30a11d;
+  font-weight: 800;
+}
+.connected-account p{
+    display: inline;
+    text-decoration: underline;
+}
+.button_fffgsc {
+/*    float: right;*/
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+   margin-bottom: -20px;
+}
+.button_fffgsc::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0;
+  animation: ripple 1s linear infinite;
+  transform-origin: top left;
+  opacity: 0.8;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+input#wp-deactivate-log {
+    height: 40px;
+}
+.authentication-required {
+    background-color: #f8d7da; /* Red background color, you can change this to your preference */
+    color: #721c24; /* Text color, you can change this to your preference */
+    border: 1px solid #f5c6cb; /* Border color, you can change this to your preference */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.authentication-required .message {
+    margin: 0;
+    padding: 0;
+}
+
+.authentication-required a {
+    color: #721c24; /* Link text color, you can change this to your preference */
+}
+.frmdisplayLogs {
+    cursor: default;
+    font-family: monospace;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #32344b;
+    width: 99%;
+    height: 400px;
+    border-color: #32344b;
+    color: azure;
+    overflow: auto;
+    padding: 2px 6px;
+    line-height: 1.42857143;
+    resize: vertical;
+}
+
+.fmdgsc-logs {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    min-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    /* Adjust padding and font size for better readability on smaller screens */
+    .frmdisplayLogs {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    /* Adjust the height for smaller screens */
+    .frmdisplayLogs {
+        height: 250px;
+        width: 100%;
+    }
+
+    .fmdgsc-logs {
+        font-size: 12px;
+        min-height: 25px;
+        padding: 0 8px;
+    }
+}
+/* Style the container */
+#frm-gsc-cta {
+    background-color: rgba(16, 172, 132, 0.06);
+    border: 2px solid #10AC84;
+    padding: 1.5rem;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column; /* Change to column layout to stack elements vertically */
+    align-items: center;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+/* Style the lock icon */
+#frm-gsc-cta i.dashicons-lock {
+    font-size: 2rem;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 1.25rem;
+    color: #10AC84;
+    border-radius: 50px;
+    background: rgba(16, 172, 132, 0.1);
+}
+
+/* Style the text */
+#frm-gsc-cta p {
+    font-size: .9375rem;
+    margin: 0;
+    color: #5f8c80;
+    display: flex; /* Enable flex display for the text */
+    align-items: center; /* Vertically center-align text and icon */
+    width: 100%; /* Ensure the text takes up the full width of the container */
+}
+
+/* Limit the width to 80% and allow text to wrap */
+#frm-gsc-cta .nj-gsc-less-free {
+    width: 80%;
+    word-wrap: break-word; /* Allow long words to break onto a new line */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #frm-gsc-cta {
+        width: 85%; /* Full width for smaller screens */
+    }
+
+    #frm-gsc-cta p {
+        width: 100%; /* Full width for text on smaller screens */
+    }
+}
+h2.system-info {
+    margin-left: 0px;
+}
+h2.system-error {
+    margin-left: 0px;
+}
+.inside label {
+   line-height: 1.3;
+   font-weight: 600;
+   color: #23282d;
+   font-size: 14px;
+   margin-right: 20px;
+}
+.gs-alert {
+   color: #0085ba;
+   font-weight: 500;
+}
+/* manual auth setting page design ---- start */
+.wg_api_option_frmgsc {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.wg_api_label_frmgsc {
+    width: 50%;
+}
+
+.wg_api_input_frmgsc {
+    width: 50%;
+}
+
+.wg_api_input_frmgsc input {
+    width: 100%;
+}
+
+.connected-account-manual-frmgsc {
+    margin-top: -2px;
+    font-weight: bold;
+    padding: 5px;
+    background: #d6663f;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.gs-frmgsc-save:hover {
+    background-color: #d6663f;
+}
+.gs-frmgsc-save {
+    background-color: #2271b1;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+
+input#save-frmgsc-reset:hover {
+    background-color: #2271b1;
+}
+input#save-frmgsc-reset {
+    background-color: #d6663f;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+input#gs-frmgsc-deactivate-auth:hover {
+    float: right;
+    margin-left: 50%;
+    background-color: #d6663f;
+    color: white;
+    border: 2px solid #d6663f;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+input#gs-frmgsc-deactivate-auth {
+    float: right;
+    margin-left: 50%;
+    background-color: #2271b1;
+    color: white; 
+    border: 2px solid #2271b1; 
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.int-meth-btn-frmgsc{
+    display: inline;
+}
+
+.wg_api_option_auth_url_frmgsc {
+    background-color: white;
+    color: #b8199a;
+    border: 2px solid #b8199a;
+    padding: 10px 32px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.wg_api_option_auth_url_frmgsc a{
+    text-decoration: none;
+}
+
+.dropdownoption-frmgsc {
+    margin-top: 20px;
+}
+
+.dropdownoption-frmgsc label {
+    font-weight: bold;
+    color: #d6663f;
+}
+
+.dropdownoption-frmgsc select {
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    border-color: #d6663f;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+/* manual auth setting page design ---- end */

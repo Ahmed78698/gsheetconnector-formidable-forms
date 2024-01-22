@@ -1,0 +1,229 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: GSheetConnector for Formidable Forms\n"
+"POT-Creation-Date: 2024-01-12 18:28+0530\n"
+"PO-Revision-Date: 2023-12-07 17:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gsheetconnector-for-formidable-forms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: gsheetconnector-for-formidable-forms.php:281
+msgid ""
+"GSheetConnector Add-on requires Formidable Form plugin to be installed and "
+"activated."
+msgstr ""
+
+#: gsheetconnector-for-formidable-forms.php:336
+msgid "Settings"
+msgstr ""
+
+#: gsheetconnector-for-formidable-forms.php:463
+msgid "Formidable Forms -  GSheetConnector"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:32
+#: includes/Action/class-frmformsgsheetconnector.php:157
+msgid "Send Your Forms Data To Google Sheet"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:82
+msgid "Authentication Required:"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:83
+msgid "You must have to"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:83
+msgid "Authenticate using your Google Account"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:83
+msgid ""
+"along with Google Drive and Google Sheets Permissions in order to enable the "
+"settings for configuration."
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:95
+msgid "Sheet Name"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:103
+msgid "Sheet ID"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:111
+msgid "Tab Name"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:119
+msgid "Tab ID"
+msgstr ""
+
+#: includes/Action/class-frmformsgsheetconnector.php:135
+msgid "Google Sheets Link"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:37
+msgid "Formidable Forms - "
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:38
+msgid "Google Sheet Integration"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:44
+msgid ""
+"Create new google APIs with Client ID and Client Secret keys to get an "
+"access for the google drive and google sheets. "
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:50
+msgid "Client Id"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:55
+msgid "Client ID"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:61
+#: includes/class-formidable-forms-integration.php:66
+msgid "Client Secret"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:77
+msgid ""
+"Something went wrong! It looks you have not given the permission of Google "
+"Drive and Google Sheets from your google account.Please Deactivate Auth and "
+"Re-Authenticate again with the permissions."
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:83
+msgid "Also,"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:84
+msgid "Click Here "
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:85
+msgid ""
+"and if it displays \"GSheetConnector for WP Contact Forms\" under Third-"
+"party apps with account access then remove it."
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:99
+msgid "Connected Email Account"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:103
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:109
+msgid ""
+"Something wrong ! Your Auth code may be wrong or expired Please Deactivate "
+"and Do Re-Auth Code "
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:137
+msgid "Client Token"
+msgstr ""
+
+#: includes/class-formidable-forms-integration.php:154
+msgid "Click here to generate an Authentication Token"
+msgstr ""
+
+#: includes/class-frm-gsc-connector-utility.php:26
+msgid "Google Sheets"
+msgstr ""
+
+#: includes/class-frm-gsc-connector-utility.php:92
+msgid "There's something wrong with your code..."
+msgstr ""
+
+#: includes/pages/formidable-form-dashboard-widget.php:19
+msgid "Formidable Forms connected with Google Sheets"
+msgstr ""
+
+#: includes/pages/formidable-form-dashboard-widget.php:48
+msgid "No Formidable Forms are connected with Google Sheets."
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:10
+msgid "System Info"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:11
+msgid "Copy System Info to Clipboard"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:22
+msgid "Error Log"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:24
+msgid "If you have"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:26
+msgid "WP_DEBUG_LOG"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:28
+msgid ""
+"enabled, errors are stored in a log file. Here you can find the last 100 "
+"lines in reversed order so that you or the GSheetConnector support team can "
+"view it easily. The file cannot be edited here."
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:30
+msgid "Copy Error Log to Clipboard"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:31
+msgid "Clear"
+msgstr ""
+
+#: includes/pages/formidable-forms-integrate-system-info.php:35
+msgid "Copied"
+msgstr ""
+
+#: includes/pages/formidable-gs-setting-info.php:30
+msgid "Integration"
+msgstr ""
+
+#: includes/pages/formidable-gs-setting-info.php:31
+msgid "System Status"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "GSheetConnector for Formidable Forms"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Send your Formidable Forms data to your Google Sheets spreadsheet."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GSheetConnector"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.gsheetconnector.com/"
+msgstr ""
