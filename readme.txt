@@ -1,6 +1,6 @@
 === GSheetConnector for Formidable Forms ===
 
-Contributors: westerndeal  
+Contributors: westerndeal, abdullah17, gsheetconnector
 Author URI: [https://www.gsheetconnector.com/](https://www.gsheetconnector.com/)  
 Tags: Formidable Forms, Google Sheet Integration, Formidable Forms Addon, Google Sheets API, WordPress Plugin  
 Requires at least: 5.6  
@@ -12,7 +12,12 @@ License URI: [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/lic
 
 ## Description
 
-The GSheetConnector for Formidable Forms is a robust WordPress plugin designed to seamlessly integrate Formidable Forms with Google Sheets. Elevate your data management and workflow automation by effortlessly transmitting Formidable Forms data directly to your designated Google Sheet.
+[GSheetConnector for Formidable Forms](https://wordpress.org/plugins/gsheetconnector-formidable-forms/) is an addon plugin, of [Formidable Forms](https://wordpress.org/plugins/formidable/)! A bridge between your WordPress based Formidable Forms forms and Google Sheets.
+
+✔🚀 Quick and Simple to use WordPress Plugin.
+It's an easy-to-use WordPress plugin that quickly transfers form submissions to Google Sheets. If you're using [Formidable Forms](https://wordpress.org/plugins/formidable/) by [Strategy11 Form Builder Team](https://formidableforms.com/), you can use GSheetConnector for Formidable Forms to streamline this process. It works with both Formidable Forms Lite and PRO versions.
+
+The GSheetConnector for Formidable Forms makes it easy to collect form data and store leads in your connected Google Sheet. Simply authorize it with your Google account, granting permissions for Google Drive and Google Sheets.
 
 ## Features
 
